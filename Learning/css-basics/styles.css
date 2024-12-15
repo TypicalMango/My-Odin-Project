@@ -1,0 +1,49 @@
+/* universal selector */
+* {
+    color: purple;
+}
+/* type selector */
+div {
+    color: gray;
+}
+/* class selector */
+.alert_text {
+    color: red;
+}
+/* id selector */
+#title {
+    background-color: red;
+}
+/* grouping selector */
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.read {
+  /* several unique declarations */
+}
+
+.unread {
+  /* several unique declarations */
+}
+/* chaining selectors */
+.subsection.header { /* selects element has both subsection and header classes */
+    color: red;
+}
+.subsection#preview { /* works for class and id or id and id as well */
+    color: blue;
+}
+
+/***************/
+/* COMBINATORS */
+/***************/
+
+/* 4 types */
+
+/* descendant combinator */
+
+.ancestor .child { /* child will only be selected if it is nested inside ancestor, regardless of how deep that nesting is */
+    /* some declarations */
+}
