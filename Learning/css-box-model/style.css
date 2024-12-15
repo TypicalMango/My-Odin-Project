@@ -1,0 +1,18 @@
+.box-one {
+    background-color: rgb(255, 102, 102);
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 20px solid rgb(212, 102, 255);
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.box-two {
+    background-color: rgb(103, 103, 253);
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: 20px solid rgb(212, 102, 255);
+    margin: 30px;
+}
